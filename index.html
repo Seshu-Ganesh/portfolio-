@@ -2,52 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seshu Ganesh B | Portfolio</title>
+    <title>Scroll Animation</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <canvas id="hero-lightpass"></canvas>
-
-    <main>
-        <section class="content-section" id="about">
-            <h1>SESHU GANESH.B</h1>
-            <p class="headline">Electronics Engineering Student | Embedded Systems & Automotive R&D Aspirant</p>
-            <div class="summary">
-                Dedicated ECE student (CGPA: 8.7) with a focus on automotive safety and real-time embedded systems.
-            </div>
-        </section>
-
-        <section class="content-section" id="projects">
-            <h2>Core Projects</h2>
-            <div class="project-card">
-                <h3>Sleep Alert Glasses</h3>
-                <p>1st Prize Winner. Driver drowsiness detection system using sensor-based detection.</p>
-            </div>
-            <div class="project-card">
-                <h3>Automated Irrigation (Keil)</h3>
-                <p>Microcontroller-based logic for soil moisture detection and water control.</p>
-            </div>
-        </section>
-
-        <section class="content-section" id="skills">
-            <h2>Technical Arsenal</h2>
-            <ul>
-                <li>Programming: C, Python</li>
-                <li>Embedded: Microcontroller Programming, Sensor Interfacing</li>
-                <li>Tools: Keil, Arduino IDE, OpenCV, Power BI</li>
-            </ul>
-        </section>
-    </main>
-
-    <div id="chat-widget">
-        <div id="chat-header">Ask Seshu's AI Assistant</div>
-        <div id="chat-history"></div>
-        <div id="chat-input-area">
-            <input type="text" id="user-input" placeholder="Ask about my experience...">
-            <button onclick="sendMessage()">Send</button>
-        </div>
+    <div class="scroll-container">
+        <canvas id="animationCanvas"></canvas>
     </div>
 
     <script src="script.js"></script>
